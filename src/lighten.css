@@ -1,0 +1,14 @@
+/*Lighten*/
+.lt,
+.lt-x1 { filter: brightness(110%); }
+.lt-x2 { filter: brightness(120%); }
+.lt-x3 { filter: brightness(130%); }
+.lt-x4 { filter: brightness(140%); }
+.lt-x5 { filter: brightness(150%); }
+.lt-x6 { filter: brightness(160%); }
+.lt-x7 { filter: brightness(170%); }
+.lt-x8 { filter: brightness(180%); }
+.lt-x9 { filter: brightness(190%); }
+.lt-x10 { filter: brightness(200%); }
+.lt-x0,
+.lt-no { filter: brightness(100%); }

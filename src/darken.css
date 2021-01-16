@@ -1,0 +1,8 @@
+/*Darken*/
+.dr,
+.dr-xs { filter: brightness(90%); }
+.dr-sm { filter: brightness(70%); }
+.dr-md { filter: brightness(50%); }
+.dr-lg { filter: brightness(30%); }
+.dr-xl { filter: brightness(10%); }
+.dr-no { filter: brightness(100%); }

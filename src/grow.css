@@ -1,0 +1,14 @@
+/*Grow*/
+.gw,
+.gw-x1 { transform: scale(1.1); }
+.gw-x2 { transform: scale(1.2); }
+.gw-x3 { transform: scale(1.3); }
+.gw-x4 { transform: scale(1.4); }
+.gw-x5 { transform: scale(1.5); }
+.gw-x6 { transform: scale(1.6); }
+.gw-x7 { transform: scale(1.7); }
+.gw-x8 { transform: scale(1.8); }
+.gw-x9 { transform: scale(1.9); }
+.gw-x10 { transform: scale(2); }
+.gw-x0,
+.gw-no { transform: scale(1); }

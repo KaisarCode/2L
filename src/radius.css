@@ -1,0 +1,15 @@
+/*Radius*/
+.rn { border-radius: 50%; }
+
+.ra { border-radius: 0.3em; }
+.ra-no { border-radius: 0; }
+
+.ra-tl { border-top-left-radius: 0.3em; }
+.ra-tr { border-top-right-radius: 0.3em; }
+.ra-bl { border-bottom-left-radius: 0.3em; }
+.ra-br { border-bottom-right-radius: 0.3em; }
+
+.ra-tl-no { border-top-left-radius: 0; }
+.ra-tr-no { border-top-right-radius: 0; }
+.ra-bl-no { border-bottom-left-radius: 0; }
+.ra-br-no { border-bottom-right-radius: 0; }

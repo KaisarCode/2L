@@ -1,0 +1,26 @@
+/*Speed*/
+.sp-xs {
+    transition-duration: calc(1s/0.5);
+    animation-duration: calc(1s/0.5);
+}
+.sp,
+.sp-sm {
+    transition-duration: calc(1s/1);
+    animation-duration: calc(1s/1);
+}
+.sp-md {
+    transition-duration: calc(1s/2);
+    animation-duration: calc(1s/2);
+}
+.sp-lg {
+    transition-duration: calc(1s/3);
+    animation-duration: calc(1s/3);
+}
+.sp-xl {
+    transition-duration: calc(1s/4);
+    animation-duration: calc(1s/4);
+}
+.sp-no {
+    transition-duration: 0s;
+    animation-duration: 0s;
+}

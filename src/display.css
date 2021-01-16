@@ -1,0 +1,6 @@
+/*Display*/
+.bl { display: block; }
+.in { display: inline-block; }
+.it { display: list-item; }
+.hi { display: hide; }
+.no  { display: none; }

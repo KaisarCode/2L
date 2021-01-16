@@ -1,0 +1,14 @@
+/*Grow*/
+.sk,
+.sk-x1 { transform: scale(0.9); }
+.sk-x2 { transform: scale(0.8); }
+.sk-x3 { transform: scale(0.7); }
+.sk-x4 { transform: scale(0.6); }
+.sk-x5 { transform: scale(0.5); }
+.sk-x6 { transform: scale(0.4); }
+.sk-x7 { transform: scale(0.3); }
+.sk-x8 { transform: scale(0.2); }
+.sk-x9 { transform: scale(0.1); }
+.sk-x10 { transform: scale(2); }
+.sk-x0,
+.sk-no { transform: scale(1); }

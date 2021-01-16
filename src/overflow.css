@@ -1,0 +1,18 @@
+/*Overflow*/
+.of { overflow: hidden; }
+.of-x { overflow-x: hidden; }
+.of-y { overflow-y: hidden; }
+.sc { overflow: auto; }
+.sc-x { overflow-x: auto; }
+.sc-y { overflow-y: auto; }
+.sw {
+    overflow: auto;
+    scrollbar-width: none;
+}.sw::-webkit-scrollbar { display: none; }
+
+.el {
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

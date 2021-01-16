@@ -1,0 +1,6 @@
+/*Translate out*/
+.ou-t { transform: translateY(-100%); }
+.ou-r { transform: translateX(100%); }
+.ou-b { transform: translateY(100%); }
+.ou-l { transform: translateX(-100%); }
+.ou-no { transform: translateX(0); }

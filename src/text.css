@@ -1,0 +1,20 @@
+/*Text size*/
+.xl { font-size: 2.4em; }
+.lg { font-size: 2.2em; }
+.h1 { font-size: 2em; }
+.h2 { font-size: 1.8em; }
+.h3 { font-size: 1.6em; }
+.h4 { font-size: 1.4em; }
+.h5 { font-size: 1.2em; }
+.h6,
+.md { font-size: 1em; }
+.sm { font-size: 0.8em; }
+.xs { font-size: 0.6em; }
+
+/*Text style*/
+.bo { font-weight: bold; }
+.tn { font-weight: thin; }
+.em { font-style: italic; }
+.up { text-transform: uppercase; }
+.lo { text-transform: lowercase; }
+.ud { text-transform: underline; }

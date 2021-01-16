@@ -1,0 +1,13 @@
+/*Color*/
+.tx { color: #222; }
+.ln { color: #000; }
+.bd { border-color: #222; }
+.bg { background-color: #FFF; }
+
+.tx-0 { color: #000; }
+.bd-0 { border-color: #000; }
+.bg-0 { background-color: #000; }
+
+.tx-no { color: transparent; }
+.bd-no { border-color: transparent; }
+.bg-no { background-color: transparent; }

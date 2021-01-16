@@ -1,0 +1,14 @@
+/*Spin*/
+.sn {
+    display: inline-block;
+    transform-origin: center center;
+    animation: sn 1s 1 linear;
+}
+@keyframes sn {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(359deg);
+    }
+}

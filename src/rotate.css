@@ -1,0 +1,10 @@
+/*Rotate*/
+.ro-0 { transform: rotate(0deg); }
+.ro-1 { transform: rotate(45deg); }
+.ro-2 { transform: rotate(90deg); }
+.ro-3 { transform: rotate(135deg); }
+.ro-4 { transform: rotate(180deg); }
+.ro-5 { transform: rotate(225deg); }
+.ro-6 { transform: rotate(270deg); }
+.ro-7 { transform: rotate(315deg); }
+.ro-8 { transform: rotate(360deg); }
