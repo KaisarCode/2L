@@ -6,8 +6,8 @@
 .fl-co { flex-direction: column; }
 
 .fl-au { flex: auto; }
-.fl-fa { flex-wrap: wrap; }
-.fl-fa-no { flex-wrap: nowrap; }
+.fl-wp { flex-wrap: wrap; }
+.fl-wp-no { flex-wrap: nowrap; }
 
 .fl-al-l { align-items: flex-start; }
 .fl-al-c { align-items: center; }
