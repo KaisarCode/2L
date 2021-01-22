@@ -1,0 +1,41 @@
+/*Height*/
+.h-1 { height: 8.333333333333334%; }
+.h-2 { height: 16.666666666666668%; }
+.h-3 { height: 25%; }
+.h-4 { height: 33.333333333333336%; }
+.h-5 { height: 41.66666666666667%; }
+.h-6 { height: 50%; }
+.h-7 { height: 58.333333333333336%; }
+.h-8 { height: 66.66666666666667%; }
+.h-9 { height: 75%; }
+.h-10 { height: 83.33333333333334%; }
+.h-11 { height: 91.66666666666667%; }
+.h-12 { height: 100%; }
+
+/*Max Height*/
+.h-mx-1 { max-height: 8.333333333333334%; }
+.h-mx-2 { max-height: 16.666666666666668%; }
+.h-mx-3 { max-height: 25%; }
+.h-mx-4 { max-height: 33.333333333333336%; }
+.h-mx-5 { max-height: 41.66666666666667%; }
+.h-mx-6 { max-height: 50%; }
+.h-mx-7 { max-height: 58.333333333333336%; }
+.h-mx-8 { max-height: 66.66666666666667%; }
+.h-mx-9 { max-height: 75%; }
+.h-mx-10 { max-height: 83.33333333333334%; }
+.h-mx-11 { max-height: 91.66666666666667%; }
+.h-mx-12 { max-height: 100%; }
+
+/*Min Height*/
+.h-mn-1 { min-height: 8.333333333333334%; }
+.h-mn-2 { min-height: 16.666666666666668%; }
+.h-mn-3 { min-height: 25%; }
+.h-mn-4 { min-height: 33.333333333333336%; }
+.h-mn-5 { min-height: 41.66666666666667%; }
+.h-mn-6 { min-height: 50%; }
+.h-mn-7 { min-height: 58.333333333333336%; }
+.h-mn-8 { min-height: 66.66666666666667%; }
+.h-mn-9 { min-height: 75%; }
+.h-mn-10 { min-height: 83.33333333333334%; }
+.h-mn-11 { min-height: 91.66666666666667%; }
+.h-mn-12 { min-height: 100%; }

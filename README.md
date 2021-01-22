@@ -16,7 +16,7 @@ sudo npm install -g \
     cssnano
 
 # Build
-postcss import.css \
+postcss src/import.css \
     --use postcss-import \
     --use postcss-css-variables \
     --use autoprefixer \

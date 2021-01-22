@@ -2,6 +2,8 @@
     --fsz: 18px;
     --rad: 0.3em;
     --spd: 1s;
+    --min: 320px;
+    --max: 1024px;
     
     /*Colors*/
     --bgc: #F5F5F5;

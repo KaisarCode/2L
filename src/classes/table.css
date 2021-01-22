@@ -1,0 +1,11 @@
+/*Table*/
+.tb { display: table; }
+.tr { display: table-row; }
+.td { display: table-cell; }
+.tb-col { display: table-column; }
+.tb-cap { display: table-caption; }
+.tb-fix { table-layout: fixed; }
+.tr-grp { display: table-row-group; }
+.th-grp { display: table-header-group; }
+.tb-col-grp { display: table-column-group; }
+.tb-ftr-grp { display: table-footer-group; }
