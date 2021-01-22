@@ -1,6 +1,6 @@
 /*Display*/
-.bl { display: block; }
-.in { display: inline-block; }
-.it { display: list-item; }
-.hi { display: hide; }
+.blo { display: block; }
+.inl { display: inline-block; }
+.itm { display: list-item; }
+.hid { display: hide; }
 .no  { display: none; }

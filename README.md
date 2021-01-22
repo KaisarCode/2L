@@ -4,5 +4,22 @@
 2L (Read: "Tool") is a compressed CSS pack with a bunch of classes which
 names fits in two letters + some short modifiers.
 
-This is a raw package, the CSS is not vendor-prefixed, nor scoped.
-It is intended to be used as a core resource.
+# How to build
+```
+# install
+sudo npm install -g \
+    postcss \
+    postcss-cli \
+    postcss-import \
+    postcss-css-variables \
+    autoprefixer \
+    cssnano
+
+# Build
+postcss import.css \
+    --use postcss-import \
+    --use postcss-css-variables \
+    --use autoprefixer \
+    --use cssnano \
+-o build.css --no-map
+```

@@ -1,3 +1,6 @@
+@import "src/0-vars.css";
+@import "src/1-normalize.css";
+@import "src/2-customize.css";
 @import "src/align.css";
 @import "src/background.css";
 @import "src/blur.css";
@@ -5,6 +8,7 @@
 @import "src/color.css";
 @import "src/cursor.css";
 @import "src/darken.css";
+@import "src/fall.css";
 @import "src/flexbox.css";
 @import "src/grow.css";
 @import "src/lighten.css";
@@ -13,13 +17,11 @@
 @import "src/overflow.css";
 @import "src/padding.css";
 @import "src/position.css";
-@import "src/pulse.css";
 @import "src/radius.css";
 @import "src/rotate.css";
 @import "src/selectable.css";
 @import "src/shadow.css";
 @import "src/shrink.css";
-@import "src/spacing.css";
 @import "src/spin.css";
 @import "src/table.css";
 @import "src/text.css";

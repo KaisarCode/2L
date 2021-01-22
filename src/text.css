@@ -9,12 +9,11 @@
 .h6,
 .md { font-size: 1em; }
 .sm { font-size: 0.8em; }
-.xs { font-size: 0.6em; }
 
 /*Text style*/
-.bo { font-weight: bold; }
-.tn { font-weight: thin; }
-.em { font-style: italic; }
-.up { text-transform: uppercase; }
-.lo { text-transform: lowercase; }
-.ud { text-transform: underline; }
+.bld { font-weight: bold; }
+.thn { font-weight: thin; }
+.ita { font-style: italic; }
+.upr { text-transform: uppercase; }
+.low { text-transform: lowercase; }
+.und { text-transform: underline; }

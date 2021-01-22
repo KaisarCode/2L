@@ -1,10 +1,12 @@
 /*Spin*/
-.sn {
+.spn,
+.spn-hvr:hover,
+.spn-act.act {
     display: inline-block;
     transform-origin: center center;
-    animation: sn 1s 1 linear;
+    animation: sn var(--spd) 1 linear;
 }
-@keyframes sn {
+@keyframes spn {
     0% {
         transform: rotate(0deg);
     }

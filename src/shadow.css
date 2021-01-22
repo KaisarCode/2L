@@ -1,11 +1,10 @@
 /*Shadow*/
-.sh,
-.sh-x1 { box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2); }
-.sh-x2 { box-shadow: 0 .125em .25em rgba(0,0,0,.075); }
-.sh-x3 { box-shadow: 0 .5em 1em rgba(0,0,0,0.15); }
-.sh-x4 { box-shadow: 0 1em 3em rgba(0,0,0,0.175); }
-.sh-x0,
-.sh-no { box-shadow: none; }
+.shd { box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2); }
+.shd-sm { box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2); }
+.shd-md { box-shadow: 0 .125em .25em rgba(0,0,0,.075); }
+.shd-lg { box-shadow: 0 .5em 1em rgba(0,0,0,0.15); }
+.shd-xl { box-shadow: 0 1em 3em rgba(0,0,0,0.175); }
+.shd-no { box-shadow: none; }
 
-.sh-tx { text-shadow: 1px 2px 0 rgba(0,0,0,0.2); }
-.sh-tx-no { text-shadow: none; }
+.shd-txt { text-shadow: 1px 2px 0 rgba(0,0,0,0.2); }
+.shd-txt-no { text-shadow: none; }

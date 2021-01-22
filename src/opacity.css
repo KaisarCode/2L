@@ -1,12 +1,30 @@
 /*Opacity*/
-.op-x0 { opacity: 0; }
-.op-x1 { opacity: 0.1; }
-.op-x2 { opacity: 0.2; }
-.op-x3 { opacity: 0.3; }
-.op-x4 { opacity: 0.4; }
-.op-x5 { opacity: 0.5; }
-.op-x6 { opacity: 0.6; }
-.op-x7 { opacity: 0.7; }
-.op-x8 { opacity: 0.8; }
-.op-x9 { opacity: 0.9; }
-.op-x10 { opacity: 1; }
+.opc,
+.opc-hvr:hover,
+.opc-fcs:focus,
+.opc-act.act { opacity: 0.5; }
+
+.opc-sm,
+.opc-sm-hvr:hover,
+.opc-sm-fcs:focus,
+.opc-sm-act.act { opacity: 0.25; }
+
+.opc-md,
+.opc-md-hvr:hover,
+.opc-md-fcs:focus,
+.opc-md-act.act { opacity: 0.5; }
+
+.opc-lg,
+.opc-lg-hvr:hover,
+.opc-lg-fcs:focus,
+.opc-lg-act.act { opacity: 0.75; }
+
+.opc-xl,
+.opc-xl-hvr:hover,
+.opc-xl-fcs:focus,
+.opc-xl-act.act { opacity: 1; }
+
+.opc-no,
+.opc-no-hvr:hover,
+.opc-no-fcs:focus,
+.opc-no-act.act { opacity: 0; }

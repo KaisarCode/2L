@@ -1,17 +1,15 @@
 /*Border*/
-.bd,
-.bd-xs { border-width: 1px; }
-.bd-sm { border-width: 2px solid; }
-.bd-md { border-width: 3px solid; }
-.bd-lg { border-width: 4px solid; }
-.bd-xl { border-width: 5px solid; }
+.bd { border-width: 1px; }
+.bd-sm { border-width: 1px; }
+.bd-md { border-width: 2px; }
+.bd-lg { border-width: 3px; }
+.bd-xl { border-width: 4px; }
 
-.bd,
+.bd { border-style: solid; }
 .bd-so { border-style: solid; }
 .bd-da { border-style: dashed; }
 .bd-do { border-style: dotted; }
 .bd-db { border-style: double; }
 .bd-in { border-style: inset; }
 .bd-ou { border-style: outset; }
-
 .bd-no { border: none; }

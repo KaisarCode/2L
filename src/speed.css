@@ -1,26 +1,30 @@
 /*Speed*/
-.sp-xs {
-    transition-duration: calc(1s/0.5);
-    animation-duration: calc(1s/0.5);
+.spd {
+    transition-duration: calc(var(--spd)/0.5);
+    animation-duration: calc(var(--spd)/0.5);
 }
-.sp,
-.sp-sm {
-    transition-duration: calc(1s/1);
-    animation-duration: calc(1s/1);
+
+.spd-xs {
+    transition-duration: calc(var(--spd)/0.5);
+    animation-duration: calc(var(--spd)/0.5);
 }
-.sp-md {
-    transition-duration: calc(1s/2);
-    animation-duration: calc(1s/2);
+.spd-sm {
+    transition-duration: calc(var(--spd)/1);
+    animation-duration: calc(var(--spd)/1);
 }
-.sp-lg {
-    transition-duration: calc(1s/3);
-    animation-duration: calc(1s/3);
+.spd-md {
+    transition-duration: calc(var(--spd)/2);
+    animation-duration: calc(var(--spd)/2);
 }
-.sp-xl {
-    transition-duration: calc(1s/4);
-    animation-duration: calc(1s/4);
+.spd-lg {
+    transition-duration: calc(var(--spd)/3);
+    animation-duration: calc(var(--spd)/3);
 }
-.sp-no {
+.spd-xl {
+    transition-duration: calc(var(--spd)/4);
+    animation-duration: calc(var(--spd)/4);
+}
+.spd-no {
     transition-duration: 0s;
     animation-duration: 0s;
 }

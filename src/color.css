@@ -1,13 +1,181 @@
 /*Color*/
-.tx { color: #222; }
-.ln { color: #000; }
-.bd { border-color: #222; }
-.bg { background-color: #FFF; }
+.txt { color: var(--txt); }
+.lnk { color: var(--lnk); }
+.bd { border-color: var(--sys); }
+.bg { background-color: var(--bgc) }
 
-.tx-0 { color: #000; }
-.bd-0 { border-color: #000; }
-.bg-0 { background-color: #000; }
+/*System*/
+.txt-sys,
+.txt-sys-hvr:hover,
+.txt-sys-fcs:focus,
+.txt-sys-act.act { color: var(--sys); }
 
-.tx-no { color: transparent; }
-.bd-no { border-color: transparent; }
-.bg-no { background-color: transparent; }
+.bd-sys,
+.bd-sys-hvr:hover,
+.bd-sys-fcs:focus,
+.bd-sys-act.act { border-color: var(--sys); }
+
+.bg-sys,
+.bg-sys-hvr:hover,
+.bg-sys-fcs:focus,
+.bg-sys-act.act { background-color: var(--sys) }
+
+/*Panel*/
+.txt-pnl,
+.txt-pnl-hvr:hover,
+.txt-pnl-fcs:focus,
+.txt-pnl-act.act { color: var(--pnl); }
+
+.bd-pnl,
+.bd-pnl-hvr:hover,
+.bd-pnl-fcs:focus,
+.bd-pnl-act.act { border-color: var(--pnl); }
+
+.bg-pnl,
+.bg-pnl-hvr:hover,
+.bg-pnl-fcs:focus,
+.bg-pnl-act.act { background-color: var(--pnl) }
+
+/*Primary*/
+.txt-prm,
+.txt-prm-hvr:hover,
+.txt-prm-fcs:focus,
+.txt-prm-act.act { color: var(--prm); }
+
+.bd-prm,
+.bd-prm-hvr:hover,
+.bd-prm-fcs:focus,
+.bd-prm-act.act { border-color: var(--prm); }
+
+.bg-prm,
+.bg-prm-hvr:hover,
+.bg-prm-fcs:focus,
+.bg-prm-act.act { background-color: var(--prm) }
+
+/*Secondary*/
+.txt-sec,
+.txt-sec-hvr:hover,
+.txt-sec-fcs:focus,
+.txt-sec-act.act { color: var(--sec); }
+
+.bd-sec,
+.bd-sec-hvr:hover,
+.bd-sec-fcs:focus,
+.bd-sec-act.act { border-color: var(--sec); }
+
+.bg-sec,
+.bg-sec-hvr:hover,
+.bg-sec-fcs:focus,
+.bg-sec-act.act { background-color: var(--sec) }
+
+/*Info*/
+.txt-inf,
+.txt-inf-hvr:hover,
+.txt-inf-fcs:focus,
+.txt-inf-act.act { color: var(--inf); }
+
+.bd-inf,
+.bd-inf-hvr:hover,
+.bd-inf-fcs:focus,
+.bd-inf-act.act { border-color: var(--inf); }
+
+.bg-inf,
+.bg-inf-hvr:hover,
+.bg-inf-fcs:focus,
+.bg-inf-act.act { background-color: var(--inf) }
+
+/*Success*/
+.txt-scc,
+.txt-scc-hvr:hover,
+.txt-scc-fcs:focus,
+.txt-scc-act.act { color: var(--scc); }
+
+.bd-scc,
+.bd-scc-hvr:hover,
+.bd-scc-fcs:focus,
+.bd-scc-act.act { border-color: var(--scc); }
+
+.bg-scc,
+.bg-scc-hvr:hover,
+.bg-scc-fcs:focus,
+.bg-scc-act.act { background-color: var(--scc) }
+
+/*Warning*/
+.txt-wrn,
+.txt-wrn-hvr:hover,
+.txt-wrn-fcs:focus,
+.txt-wrn-act.act { color: var(--wrn); }
+
+.bd-wrn,
+.bd-wrn-hvr:hover,
+.bd-wrn-fcs:focus,
+.bd-wrn-act.act { border-color: var(--wrn); }
+
+.bg-wrn,
+.bg-wrn-hvr:hover,
+.bg-wrn-fcs:focus,
+.bg-wrn-act.act { background-color: var(--wrn) }
+
+/*Danger*/
+.txt-dng,
+.txt-dng-hvr:hover,
+.txt-dng-fcs:focus,
+.txt-dng-act.act { color: var(--dng); }
+
+.bd-dng,
+.bd-dng-hvr:hover,
+.bd-dng-fcs:focus,
+.bd-dng-act.act { border-color: var(--dng); }
+
+.bg-dng,
+.bg-dng-hvr:hover,
+.bg-dng-fcs:focus,
+.bg-dng-act.act { background-color: var(--dng) }
+
+/*White*/
+.txt-wht,
+.txt-wht-hvr:hover,
+.txt-wht-fcs:focus,
+.txt-wht-act.act { color: var(--wht); }
+
+.bd-wht,
+.bd-wht-hvr:hover,
+.bd-wht-fcs:focus,
+.bd-wht-act.act { border-color: var(--wht); }
+
+.bg-wht,
+.bg-wht-hvr:hover,
+.bg-wht-fcs:focus,
+.bg-wht-act.act { background-color: var(--wht) }
+
+/*Black*/
+.txt-blk,
+.txt-blk-hvr:hover,
+.txt-blk-fcs:focus,
+.txt-blk-act.act { color: var(--blk); }
+
+.bd-blk,
+.bd-blk-hvr:hover,
+.bd-blk-fcs:focus,
+.bd-blk-act.act { border-color: var(--blk); }
+
+.bg-blk,
+.bg-blk-hvr:hover,
+.bg-blk-fcs:focus,
+.bg-blk-act.act { background-color: var(--blk) }
+
+/*Transparent*/
+.txt-no,
+.txt-no-hvr:hover,
+.txt-no-fcs:focus,
+.txt-no-act.act { color: transparent; }
+
+.bd-no,
+.bd-no-hvr:hover,
+.bd-no-fcs:focus,
+.bd-no-act.act { border-color: transparent; }
+
+.bg-no,
+.bg-no-hvr:hover,
+.bg-no-fcs:focus,
+.bg-no-act.act { background-color: transparent; }

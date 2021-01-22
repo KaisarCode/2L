@@ -1,8 +1,30 @@
 /*Darken*/
-.dr,
-.dr-xs { filter: brightness(90%); }
-.dr-sm { filter: brightness(70%); }
-.dr-md { filter: brightness(50%); }
-.dr-lg { filter: brightness(30%); }
-.dr-xl { filter: brightness(10%); }
-.dr-no { filter: brightness(100%); }
+.drk,
+.drk-hvr:hover,
+.drk-fcs:focus,
+.drk-act.act { filter: brightness(75%); }
+
+.drk-sm,
+.drk-sm-hvr:hover,
+.drk-sm-fcs:focus,
+.drk-sm-act.act { filter: brightness(75%); }
+
+.drk-md,
+.drk-md-hvr:hover,
+.drk-md-fcs:focus,
+.drk-md-act.act { filter: brightness(50%); }
+
+.drk-lg,
+.drk-lg-hvr:hover,
+.drk-lg-fcs:focus,
+.drk-lg-act.act { filter: brightness(25%); }
+
+.drk-xl,
+.drk-xl-hvr:hover,
+.drk-xl-fcs:focus,
+.drk-xl-act.act { filter: brightness(0%); }
+
+.drk-no,
+.drk-no-hvr:hover,
+.drk-no-fcs:focus,
+.drk-no-act.act { filter: brightness(100%); }

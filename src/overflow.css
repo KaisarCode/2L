@@ -1,16 +1,18 @@
 /*Overflow*/
-.of { overflow: hidden; }
-.of-x { overflow-x: hidden; }
-.of-y { overflow-y: hidden; }
-.sc { overflow: auto; }
-.sc-x { overflow-x: auto; }
-.sc-y { overflow-y: auto; }
-.sw {
+.ofw { overflow: hidden; }
+.ofw-x { overflow-x: hidden; }
+.ofw-y { overflow-y: hidden; }
+
+.scr { overflow: auto; }
+.scr-x { overflow-x: auto; }
+.scr-y { overflow-y: auto; }
+
+.swp {
     overflow: auto;
     scrollbar-width: none;
-}.sw::-webkit-scrollbar { display: none; }
+}.swp::-webkit-scrollbar { display: none; }
 
-.el {
+.ell {
     max-width: 100%;
     overflow: hidden;
     white-space: nowrap;

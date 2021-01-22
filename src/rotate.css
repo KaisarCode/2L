@@ -1,10 +1,36 @@
 /*Rotate*/
-.ro-0 { transform: rotate(0deg); }
-.ro-1 { transform: rotate(45deg); }
-.ro-2 { transform: rotate(90deg); }
-.ro-3 { transform: rotate(135deg); }
-.ro-4 { transform: rotate(180deg); }
-.ro-5 { transform: rotate(225deg); }
-.ro-6 { transform: rotate(270deg); }
-.ro-7 { transform: rotate(315deg); }
-.ro-8 { transform: rotate(360deg); }
+.rot-0,
+.rot-0-hvr:hover,
+.rot-0-act.act { transform: rotate(0deg); }
+
+.rot-1,
+.rot-1-hvr:hover,
+.rot-1-act.act { transform: rotate(45deg); }
+
+.rot-2,
+.rot-2-hvr:hover,
+.rot-2-act.act { transform: rotate(90deg); }
+
+.rot-3,
+.rot-3-hvr:hover,
+.rot-3-act.act { transform: rotate(135deg); }
+
+.rot-4,
+.rot-4-hvr:hover,
+.rot-4-act.act { transform: rotate(180deg); }
+
+.rot-5,
+.rot-5-hvr:hover,
+.rot-5-act.act { transform: rotate(225deg); }
+
+.rot-6,
+.rot-6-hvr:hover,
+.rot-6-act.act { transform: rotate(270deg); }
+
+.rot-7,
+.rot-7-hvr:hover,
+.rot-7-act.act { transform: rotate(315deg); }
+
+.rot-8,
+.rot-8-hvr:hover,
+.rot-8-act.act { transform: rotate(360deg); }

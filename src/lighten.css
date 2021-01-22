@@ -1,14 +1,30 @@
 /*Lighten*/
-.lt,
-.lt-x1 { filter: brightness(110%); }
-.lt-x2 { filter: brightness(120%); }
-.lt-x3 { filter: brightness(130%); }
-.lt-x4 { filter: brightness(140%); }
-.lt-x5 { filter: brightness(150%); }
-.lt-x6 { filter: brightness(160%); }
-.lt-x7 { filter: brightness(170%); }
-.lt-x8 { filter: brightness(180%); }
-.lt-x9 { filter: brightness(190%); }
-.lt-x10 { filter: brightness(200%); }
-.lt-x0,
-.lt-no { filter: brightness(100%); }
+.lgt,
+.lgt-hvr:hover,
+.lgt-fcs:focus,
+.lgt-act.act { filter: brightness(110%); }
+
+.lgt-sm,
+.lgt-sm-hvr:hover,
+.lgt-sm-fcs:focus,
+.lgt-sm-act.act { filter: brightness(125%); }
+
+.lgt-md,
+.lgt-md-hvr:hover,
+.lgt-md-fcs:focus,
+.lgt-md-act.act { filter: brightness(150%); }
+
+.lgt-lg,
+.lgt-lg-hvr:hover,
+.lgt-lg-fcs:focus,
+.lgt-lg-act.act { filter: brightness(175%); }
+
+.lgt-xl,
+.lgt-xl-hvr:hover,
+.lgt-xl-fcs:focus,
+.lgt-xl-act.act { filter: brightness(200%); }
+
+.lgt-no,
+.lgt-no-hvr:hover,
+.lgt-no-fcs:focus,
+.lgt-no-act.act { filter: brightness(100%); }
