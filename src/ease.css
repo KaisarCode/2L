@@ -20,4 +20,4 @@
 }
 
 /*Infinite*/
-.if { animation-iteration-count: infinite; }
+.if { -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }

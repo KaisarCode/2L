@@ -1,7 +1,0 @@
-/*Blur*/
-.blr { filter: blur(1px); }
-.blr-sm { filter: blur(1px); }
-.blr-md { filter: blur(2px); }
-.blr-lg { filter: blur(3px); }
-.blr-xl { filter: blur(4px); }
-.blr-no { filter: blur(0); }

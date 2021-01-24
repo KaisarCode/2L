@@ -1,8 +1,0 @@
-/*Position*/
-.abs { position: absolute; }
-.rel { position: relative; }
-.fix { position: fixed; }
-.t { top: 0; }
-.r { right: 0; }
-.b { bottom: 0; }
-.l { left: 0; }
