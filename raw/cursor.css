@@ -1,0 +1,17 @@
+/*Cursor*/
+.cu-gr { cusor: grab; }
+.cu-gb { cusor: grabbing; }
+.cu-cr { cusor: crosshair; }
+.cu-mv { cusor: move; }
+.cu-mn { cusor: context-menu; }
+.cu-hl { cusor: help; }
+.cu-pg { cusor: progress; }
+.cu-wa { cusor: wait; }
+.cu-tx { cusor: text; }
+.cu-sc { cusor: all-scroll; }
+.cu-ce { cusor: cell; }
+.cu-cp { cusor: copy; }
+.cu-df { cusor: default; }
+.cu-zi { cusor: zoom-in; }
+.cu-zo { cusor: zoom-out; }
+.cu-no { cusor: none; }

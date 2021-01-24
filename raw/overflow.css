@@ -1,0 +1,13 @@
+/*Overflow*/
+.ow { overflow: hidden; }
+.ow-x { overflow-x: hidden; }
+.ow-y { overflow-y: hidden; }
+
+.sc { overflow: auto; }
+.sc-x { overflow-x: auto; }
+.sc-y { overflow-y: auto; }
+
+.sw {
+    overflow: auto;
+    scrollbar-width: none;
+}.sw::-webkit-scrollbar { display: none; }

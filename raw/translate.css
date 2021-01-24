@@ -1,0 +1,15 @@
+/*Translate out*/
+.ou-t,
+.ou-t-on.on { transform: translateY(-100%); }
+
+.ou-r,
+.ou-r-on.on { transform: translateX(100%); }
+
+.ou-b,
+.ou-b-on.on { transform: translateY(100%); }
+
+.ou-l,
+.ou-l-on.on { transform: translateX(-100%); }
+
+.ou-no,
+.ou-no-on.on { transform: translateX(0); }

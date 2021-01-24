@@ -1,0 +1,16 @@
+/*Spin*/
+.sn,
+.sn-hvr:hover,
+.sn-act.act {
+    display: inline-block;
+    transform-origin: center center;
+    animation: sn var(--spd) 1 linear;
+}
+@keyframes sn {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(359deg);
+    }
+}

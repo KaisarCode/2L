@@ -1,0 +1,13 @@
+/*Text Wrap*/
+.ws-wp { white-space: wrap; }
+.ws-pr { white-space: pre; }
+.ws-pw { white-space: pre-wrap; }
+.ws-el {
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.ws-no { white-space: nowrap; }
+.wp { max-width: var(--max); }
+.wp-mn { min-width: var(--min); }
