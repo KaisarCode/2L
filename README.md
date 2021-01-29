@@ -14,7 +14,17 @@ sudo npm install -g \
     autoprefixer \
     cssnano
 ```
-## FULL
+
+## Build
+```
+postcss core.css \
+    -u postcss-import \
+    -u postcss-css-variables \
+    -u cssnano \
+-o ./build.css --no-map
+```
+
+## Full
 ```
 postcss raw/* \
     -u autoprefixer \
@@ -24,7 +34,7 @@ postcss core.css \
     -u postcss-import \
     -u postcss-css-variables \
     -u cssnano \
--o ./build.css
+-o ./build.css --no-map
 ```
 
 
