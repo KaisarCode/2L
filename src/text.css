@@ -12,8 +12,7 @@
 
 /*Text style*/
 .bl { font-weight: bold; }
-.tn { font-weight: thin; }
 .it { font-style: italic; }
 .up { text-transform: uppercase; }
 .lo { text-transform: lowercase; }
-.ud { text-transform: underline; }
+.ud { text-decoration: underline; }

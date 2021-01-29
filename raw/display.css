@@ -2,5 +2,5 @@
 .bl { display: block; }
 .in { display: inline-block; }
 .li { display: list-item; }
-.hi { display: hide; }
+.hi { visibility: hidden; }
 .no { display: none; }

@@ -8,10 +8,28 @@ sudo npm install -g \
     autoprefixer \
     cssnano
 
-# Autoprefix
+# Autoprefix only
 postcss raw/* \
-    --use autoprefixer \
+    -u autoprefixer \
 -d src --no-map
+
+# Build
+postcss core.css \
+    -u postcss-import \
+    -u postcss-css-variables \
+    -u cssnano \
+-o ./build.css --no-map
+
+## FULL
+postcss raw/* \
+    -u autoprefixer \
+-d src --no-map \
+&& \
+postcss core.css \
+    -u postcss-import \
+    -u postcss-css-variables \
+    -u cssnano \
+-o ./build.css --no-map
 ```
 
 
