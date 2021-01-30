@@ -1,6 +1,7 @@
 :root {
     --fsz: 18px;
     --rad: 0.3em;
+    --pad: 0.25em;
     --spd: 1s;
     --min: 320px;
     --max: 1024px;
@@ -19,4 +20,7 @@
     --dng: #DC3545;
     --wht: #FFFFFF;
     --blk: #000000;
+    
+    /*Brightness*/
+    --brg: 5%;
 }

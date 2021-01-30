@@ -1,6 +1,7 @@
 @import "src/1-vars.css";
 @import "src/2-normalize.css";
 @import "src/3-customize.css";
+@import "src/components.css";
 @import "src/align.css";
 @import "src/background.css";
 @import "src/border.css";

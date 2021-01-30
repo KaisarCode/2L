@@ -1,0 +1,21 @@
+.pnl {
+    display: block;
+    border-radius: var(--rad);
+    padding: calc(var(--pad)*1);
+    background-color: var(--pnl);
+    border: 1px solid var(--pnl);
+}
+.ipt {
+    padding:
+    calc(var(--pad)*1);
+    border: 1px solid var(--sys);
+}
+.btn {
+    padding:
+    calc(var(--pad)*1)
+    calc(var(--pad)*4);
+    color: var(--wht);
+    border-radius: var(--rad);
+    background-color: var(--prm);
+    border: 1px solid var(--prm);
+}
