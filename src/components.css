@@ -5,6 +5,11 @@
     background-color: var(--pnl);
     border: 1px solid var(--pnl);
 }
+.ipt {
+    padding:
+    calc(var(--pad)*1);
+    border: 1px solid var(--sys);
+}
 .btn {
     padding:
     calc(var(--pad)*1)
