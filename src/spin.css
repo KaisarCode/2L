@@ -1,7 +1,8 @@
 /*Spin*/
 .sn,
-.sn-hvr:hover,
-.sn-act.act {
+.sn-hv:hover,
+.sn-fc:focus,
+.sn-on.on {
     display: inline-block;
     transform-origin: center center;
     -webkit-animation: sn var(--spd) 1 linear;

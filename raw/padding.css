@@ -17,7 +17,7 @@
 .pd-y-sm { padding-top: calc(var(--pad)*1); padding-bottom: calc(var(--pad)*1); }
 .pd-y-md { padding-top: calc(var(--pad)*2); padding-bottom: calc(var(--pad)*2); }
 .pd-y-lg { padding-top: calc(var(--pad)*3); padding-bottom: calc(var(--pad)*3); }
-.pd-y-yl { padding-top: calc(var(--pad)*4); padding-bottom: calc(var(--pad)*4); }
+.pd-y-xl { padding-top: calc(var(--pad)*4); padding-bottom: calc(var(--pad)*4); }
 .pd-y-no { padding-top: 0; padding-bottom: 0; }
 
 .pd-t { padding-top: calc(var(--pad)*1); }

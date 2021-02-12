@@ -9,5 +9,6 @@
     white-space: nowrap;
     text-overflow: ellipsis;
 }
-.wp { max-width: var(--max); }
+.wp { width: var(--max); }
+.wp-mx { max-width: var(--max); }
 .wp-mn { min-width: var(--min); }

@@ -2,10 +2,10 @@
 .tb { display: table; }
 .tr { display: table-row; }
 .td { display: table-cell; }
-.tb-col { display: table-column; }
-.tb-cap { display: table-caption; }
-.tb-fix { table-layout: fixed; }
-.tr-grp { display: table-row-group; }
-.th-grp { display: table-header-group; }
-.tb-col-grp { display: table-column-group; }
-.tb-ftr-grp { display: table-footer-group; }
+.tb-co { display: table-column; }
+.tb-cp { display: table-caption; }
+.tb-fx { table-layout: fixed; }
+.tr-gr { display: table-row-group; }
+.th-gr { display: table-header-group; }
+.tb-co-gr { display: table-column-group; }
+.tb-ft-gr { display: table-footer-group; }

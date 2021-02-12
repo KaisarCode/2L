@@ -1,15 +1,25 @@
 /*Translate out*/
 .ou-t,
+.ou-t-hv:hover,
+.ou-t-fc:focus,
 .ou-t-on.on { transform: translateY(-100%); }
 
 .ou-r,
+.ou-r-hv:hover,
+.ou-r-fc:focus,
 .ou-r-on.on { transform: translateX(100%); }
 
 .ou-b,
+.ou-b-hv:hover,
+.ou-b-fc:focus,
 .ou-b-on.on { transform: translateY(100%); }
 
 .ou-l,
+.ou-l-hv:hover,
+.ou-l-fc:focus,
 .ou-l-on.on { transform: translateX(-100%); }
 
 .ou-no,
+.ou-no-hv:hover,
+.ou-no-fc:focus,
 .ou-no-on.on { transform: translateX(0); }

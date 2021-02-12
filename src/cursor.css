@@ -1,17 +1,17 @@
 /*Cursor*/
-.cu-gr { cursor: -webkit-grab; cursor: grab; }
-.cu-gb { cursor: -webkit-grabbing; cursor: grabbing; }
-.cu-cr { cursor: crosshair; }
-.cu-mv { cursor: move; }
-.cu-mn { cursor: context-menu; }
-.cu-hl { cursor: help; }
-.cu-pg { cursor: progress; }
-.cu-wa { cursor: wait; }
-.cu-tx { cursor: text; }
-.cu-sc { cursor: all-scroll; }
-.cu-ce { cursor: cell; }
-.cu-cp { cursor: copy; }
-.cu-df { cursor: default; }
-.cu-zi { cursor: zoom-in; }
-.cu-zo { cursor: zoom-out; }
-.cu-no { cursor: none; }
+.cr-gr { cursor: -webkit-grab; cursor: grab; }
+.cr-gb { cursor: -webkit-grabbing; cursor: grabbing; }
+.cr-cr { cursor: crosshair; }
+.cr-mv { cursor: move; }
+.cr-mn { cursor: context-menu; }
+.cr-hl { cursor: help; }
+.cr-pg { cursor: progress; }
+.cr-wa { cursor: wait; }
+.cr-tx { cursor: text; }
+.cr-sc { cursor: all-scroll; }
+.cr-ce { cursor: cell; }
+.cr-cp { cursor: copy; }
+.cr-df { cursor: default; }
+.cr-zi { cursor: zoom-in; }
+.cr-zo { cursor: zoom-out; }
+.cr-no { cursor: none; }

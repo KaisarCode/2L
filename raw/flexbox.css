@@ -2,7 +2,9 @@
 .fl { display: flex; }
 .fl-in { display: inline-flex; }
 .fl-rw { flex-direction: row; }
+.fl-rw-rv { flex-direction: row-reverse; }
 .fl-co { flex-direction: column; }
+.fl-co-rv { flex-direction: column-reverse; }
 .fl-au { flex: auto; }
 .fl-wp { flex-wrap: wrap; }
 .fl-wp-no { flex-wrap: nowrap; }
