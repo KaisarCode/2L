@@ -11,7 +11,7 @@
 .sm { font-size: 0.8em; }
 
 /*Text style*/
-.bl { font-weight: bold; }
+.bo { font-weight: bold; }
 .it { font-style: italic; }
 .up { text-transform: uppercase; }
 .lo { text-transform: lowercase; }
