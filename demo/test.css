@@ -1,6 +1,0 @@
-html, body {
-    font-family: sans-serif;
-}
-@media screen and (max-width: 768px) {
-    main .wd-4 { width: 100%; }
-}
