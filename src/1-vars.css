@@ -24,6 +24,8 @@
     /*Brightness*/
     --brg: 5%;
     
-    /*Mobile break*/
-    --brk: 768px;
+    /*Breaks*/
+    --br1: 360px;
+    --br2: 768px;
+    --br3: 1200px;
 }
