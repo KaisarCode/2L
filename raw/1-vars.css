@@ -4,7 +4,7 @@
     --pad: 0.25em;
     --spd: 1s;
     --min: 320px;
-    --max: 1024px;
+    --max: 768px;
     
     /*Colors*/
     --bgc: #F5F5F5;
@@ -23,9 +23,4 @@
     
     /*Brightness*/
     --brg: 5%;
-    
-    /*Breaks*/
-    --br1: 360px;
-    --br2: 768px;
-    --br3: 1200px;
 }
