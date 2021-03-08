@@ -5,7 +5,6 @@
     --spd: 1s;
     --min: 320px;
     --max: 1024px;
-    --brg: 5%;
     
     /*Colors*/
     --bgc: #F5F5F5;
@@ -21,4 +20,10 @@
     --dng: #DC3545;
     --wht: #FFFFFF;
     --blk: #000000;
+    
+    /*Brightness*/
+    --brg: 5%;
+    
+    /*Mobile break*/
+    --brk: 768px;
 }

@@ -23,4 +23,7 @@
     
     /*Brightness*/
     --brg: 5%;
+    
+    /*Mobile break*/
+    --brk: 768px;
 }

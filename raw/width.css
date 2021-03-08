@@ -39,3 +39,8 @@
 .wd-mn-10 { min-width: 83.33333333333334%; }
 .wd-mn-11 { min-width: 91.66666666666667%; }
 .wd-mn-12 { min-width: 100%; }
+
+/*Full width on mobile*/
+@media screen and (max-width: var(--brk)) {
+    .wd-br { width: 100%; }
+}
