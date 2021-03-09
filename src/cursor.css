@@ -1,6 +1,6 @@
 /*Cursor*/
-.cr-gr { cursor: -webkit-grab; cursor: grab; }
-.cr-gb { cursor: -webkit-grabbing; cursor: grabbing; }
+.cr-gr { cursor: grab; }
+.cr-gb { cursor: grabbing; }
 .cr-cr { cursor: crosshair; }
 .cr-mv { cursor: move; }
 .cr-mn { cursor: context-menu; }

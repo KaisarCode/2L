@@ -4,3 +4,9 @@
 .li { display: list-item; }
 .hi { visibility: hidden; }
 .no { display: none; }
+
+/*Mobile*/
+@media screen and (max-width: var(--max)) {
+    .br-hi { visibility: hidden; }
+    .br-no { display: none; }
+}

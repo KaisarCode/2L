@@ -5,16 +5,7 @@
 .sn-on.on {
     display: inline-block;
     transform-origin: center center;
-    -webkit-animation: sn var(--spd) 1 linear;
-            animation: sn var(--spd) 1 linear;
-}
-@-webkit-keyframes sn {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(359deg);
-    }
+    animation: sn var(--spd) 1 linear;
 }
 @keyframes sn {
     0% {

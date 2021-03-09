@@ -11,6 +11,7 @@ sudo npm install -g \
     postcss-cli \
     postcss-import \
     postcss-css-variables \
+    postcss-media-variables \
     autoprefixer \
     cssnano
 ```
@@ -19,22 +20,12 @@ sudo npm install -g \
 ```
 postcss core.css \
     -u postcss-import \
+    -u postcss-media-variables \
     -u postcss-css-variables \
-    -u cssnano \
--o ./build.css --no-map
-```
-
-## Full
-```
-postcss raw/* \
+    -u postcss-media-variables \
     -u autoprefixer \
--d src --no-map \
-&& \
-postcss core.css \
-    -u postcss-import \
-    -u postcss-css-variables \
     -u cssnano \
--o ./build.css --no-map
+-o build.css --no-map
 ```
 
 

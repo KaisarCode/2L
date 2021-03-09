@@ -11,8 +11,22 @@
 .sm { font-size: 0.8em; }
 
 /*Text style*/
-.bo { font-weight: bold; }
-.it { font-style: italic; }
+.b { font-weight: bold; }
+.i { font-style: italic; }
+.u { text-decoration: underline; }
 .up { text-transform: uppercase; }
 .lo { text-transform: lowercase; }
-.ud { text-decoration: underline; }
+
+/*Mobile*/
+@media screen and (max-width: var(--max)) {
+    .br-xl { font-size: 2.4em; }
+    .br-lg { font-size: 2.2em; }
+    .br-h1 { font-size: 2em; }
+    .br-h2 { font-size: 1.8em; }
+    .br-h3 { font-size: 1.6em; }
+    .br-h4 { font-size: 1.4em; }
+    .br-h5 { font-size: 1.2em; }
+    .br-h6,
+    .br-md { font-size: 1em; }
+    .br-sm { font-size: 0.8em; }
+}

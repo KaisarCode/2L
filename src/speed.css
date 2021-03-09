@@ -1,36 +1,29 @@
 /*Speed*/
 .sp {
     transition-duration: calc(var(--spd)/0.5);
-    -webkit-animation-duration: calc(var(--spd)/0.5);
-            animation-duration: calc(var(--spd)/0.5);
+    animation-duration: calc(var(--spd)/0.5);
 }
 .sp-xs {
     transition-duration: calc(var(--spd)/0.5);
-    -webkit-animation-duration: calc(var(--spd)/0.5);
-            animation-duration: calc(var(--spd)/0.5);
+    animation-duration: calc(var(--spd)/0.5);
 }
 .sp-sm {
     transition-duration: calc(var(--spd)/1);
-    -webkit-animation-duration: calc(var(--spd)/1);
-            animation-duration: calc(var(--spd)/1);
+    animation-duration: calc(var(--spd)/1);
 }
 .sp-md {
     transition-duration: calc(var(--spd)/2);
-    -webkit-animation-duration: calc(var(--spd)/2);
-            animation-duration: calc(var(--spd)/2);
+    animation-duration: calc(var(--spd)/2);
 }
 .sp-lg {
     transition-duration: calc(var(--spd)/3);
-    -webkit-animation-duration: calc(var(--spd)/3);
-            animation-duration: calc(var(--spd)/3);
+    animation-duration: calc(var(--spd)/3);
 }
 .sp-xl {
     transition-duration: calc(var(--spd)/4);
-    -webkit-animation-duration: calc(var(--spd)/4);
-            animation-duration: calc(var(--spd)/4);
+    animation-duration: calc(var(--spd)/4);
 }
 .sp-no {
     transition-duration: 0s;
-    -webkit-animation-duration: 0s;
-            animation-duration: 0s;
+    animation-duration: 0s;
 }

@@ -13,3 +13,24 @@
 .bd-in { border-style: inset; }
 .bd-ou { border-style: outset; }
 .bd-no { border: none; }
+
+.bd-t {
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+.bd-r {
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+.bd-b {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.bd-l {
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}

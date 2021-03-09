@@ -4,6 +4,54 @@
 .bd { border-color: var(--sys); }
 .bg { background-color: var(--bgc) }
 
+/*Background*/
+.tx-bgc,
+.tx-bgc-hv:hover,
+.tx-bgc-fc:focus,
+.tx-bgc-on.on { color: var(--bgc); }
+
+.bd-bgc,
+.bd-bgc-hv:hover,
+.bd-bgc-fc:focus,
+.bd-bgc-on.on { border-color: var(--bgc); }
+
+.bg-bgc,
+.bg-bgc-hv:hover,
+.bg-bgc-fc:focus,
+.bg-bgc-on.on { background-color: var(--bgc) }
+
+/*Text color*/
+.tx-txt,
+.tx-txt-hv:hover,
+.tx-txt-fc:focus,
+.tx-txt-on.on { color: var(--txt); }
+
+.bd-txt,
+.bd-txt-hv:hover,
+.bd-txt-fc:focus,
+.bd-txt-on.on { border-color: var(--txt); }
+
+.bg-txt,
+.bg-txt-hv:hover,
+.bg-txt-fc:focus,
+.bg-txt-on.on { background-color: var(--txt) }
+
+/*Link*/
+.tx-lnk,
+.tx-lnk-hv:hover,
+.tx-lnk-fc:focus,
+.tx-lnk-on.on { color: var(--lnk); }
+
+.bd-lnk,
+.bd-lnk-hv:hover,
+.bd-lnk-fc:focus,
+.bd-lnk-on.on { border-color: var(--lnk); }
+
+.bg-lnk,
+.bg-lnk-hv:hover,
+.bg-lnk-fc:focus,
+.bg-lnk-on.on { background-color: var(--lnk) }
+
 /*System*/
 .tx-sys,
 .tx-sys-hv:hover,
@@ -19,6 +67,22 @@
 .bg-sys-hv:hover,
 .bg-sys-fc:focus,
 .bg-sys-on.on { background-color: var(--sys) }
+
+/*Panel*/
+.tx-hdr,
+.tx-hdr-hv:hover,
+.tx-hdr-fc:focus,
+.tx-hdr-on.on { color: var(--hdr); }
+
+.bd-hdr,
+.bd-hdr-hv:hover,
+.bd-hdr-fc:focus,
+.bd-hdr-on.on { border-color: var(--hdr); }
+
+.bg-hdr,
+.bg-hdr-hv:hover,
+.bg-hdr-fc:focus,
+.bg-hdr-on.on { background-color: var(--hdr) }
 
 /*Panel*/
 .tx-pnl,
